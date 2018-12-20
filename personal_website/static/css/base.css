@@ -1,7 +1,7 @@
 /*==================================================*/
-/*   LIGHT GRAY: #DCDCDC                            */
-/*   ORANGE: #E67E22                                */
-/*   DARK GRAY: #383838                             */
+/*   CERULEAN: #00303F                              */
+/*   MIST: #7A9D96                                  */
+/*   WHITE: #FFFFFF                                 */
 /*   LIGHT BLUE: #AED6F1                            */
 /*==================================================*/
 
@@ -10,24 +10,24 @@ body {
     line-height: 1.5;
     padding-top: 125px;
     padding-bottom: 100px;
-    background-color: #383838;
+    background-color: #FFFFFF;
 }
-p {font-size: 18px; color: #DCDCDC;}
+p {font-size: 18px; color: #00303F;}
 pre {background-color: #EEEEDD;}
 
 ol {list-style-type: decimal;}
-ul li{font-size:18px; color: #DCDCDC;}
+ul li{font-size:18px; color: #00303F;}
 
-h2 {font-size: 22px; color: #E67E22;}
-h3 {font-size: 28px; color: #DCDCDC;}
-hr {height: 5px; border-color: #DCDCDC;}
+h2 {font-size: 22px; color: #7A9D96;}
+h3 {font-size: 28px; color: #00303F;}
+hr {height: 5px; border-color: #00303F;}
 
 /* img {margin-top: 25px; width: 30%; height: auto; min-width: 200px;} */
 input::placeholder {color: #989898;}
 
 .margin {margin-bottom: 5px;}
-.bg-main {background-color: #383838;}
-.bg-foot {background-color: #E67E22;}
+.bg-main {background-color: #FFFFFF;}
+.bg-foot {background-color: #7A9D96;}
 
 /*==================================================*/
 /*   NAVBAR                                         */
@@ -41,33 +41,33 @@ input::placeholder {color: #989898;}
     letter-spacing: 5px;
     position: fixed;
     width: 100%;
-    background-color: #E67E22; /* orange */
+    background-color: #7A9D96; /* orange */
     z-index: 1;
 }
-.navbar-default {border: #383838;}
-.navbar-default .navbar-brand {color: #383838;}
+.navbar-default {border: #FFFFFF;}
+.navbar-default .navbar-brand {color: #FFFFFF;}
 .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {color: #DCDCDC;}
-.navbar-default .navbar-nav > li > a {color: #383838;}
-.navbar-default .navbar-nav > li > a:hover {color: #DCDCDC;}
+.navbar-default .navbar-brand:focus {color: #00303F;}
+.navbar-default .navbar-nav > li > a {color: #FFFFFF;}
+.navbar-default .navbar-nav > li > a:hover {color: #00303F;}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: transparent; box-shadow: none;}
-.navbar-default .navbar-toggle {border-color: transparent; background-color: #E67E22;}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {background-color: #E67E22;}
-.navbar-default .navbar-toggle .icon-bar {background-color: #383838;}
-.navbar-default .navbar-toggle:hover .icon-bar {background-color: #DCDCDC;}
+.navbar-default .navbar-toggle {border-color: transparent; background-color: #7A9D96;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {background-color: #7A9D96;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #FFFFFF;}
+.navbar-default .navbar-toggle:hover .icon-bar {background-color: #00303F;}
 
 /*==================================================*/
 /*   FONT AWESOME ICONS STYLES                      */
 /*==================================================*/
-.fa-circle {color: #DCDCDC;}
-.fa-envelope {color: #383838;}
-.fa-envelope:hover {color: #E67E22;}
-.fa-linkedin {color: #383838;}
-.fa-linkedin:hover {color: #E67E22;}
-.fa-github {color: #383838;}
-.fa-github:hover {color: #E67E22;}
-.fa-list-alt {color: #383838;}
-.fa-list-alt:hover {color: #E67E22;}
+.fa-circle {color: #00303F;}
+.fa-envelope {color: #FFFFFF;}
+.fa-envelope:hover {color: #7A9D96;}
+.fa-linkedin {color: #FFFFFF;}
+.fa-linkedin:hover {color: #7A9D96;}
+.fa-github {color: #FFFFFF;}
+.fa-github:hover {color: #7A9D96;}
+.fa-list-alt {color: #FFFFFF;}
+.fa-list-alt:hover {color: #7A9D96;}
 
 /*==================================================*/
 /*   FOOTER                                         */
@@ -78,7 +78,7 @@ input::placeholder {color: #989898;}
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #E67E22;
+    background-color: #7A9D96;
     text-align: center;
 }
 .footer p {margin: 0 0;}
